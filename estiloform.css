@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#subtit_se{
+    display: inline;
+    margin bottom: 100px;
+}
+hr{
+    margin: 5px;
+    color: whitesmoke;
+}
+.formulario{
+    font-family: sans-serif;
+    font-size: medium;
+    color: whitesmoke;
+    background-color: darkgrey;
+    width: 300px;
+    align-content: center;
+    border-radius: 1%;
+}
+fieldset{
+    border-color: whitesmoke;
+    border-radius: 2%;
+}
+fieldset legend{
+    text-align: center;
+}
+.formutodo{
+    padding: 10px;
+    align-content: center;
+    position: relative;
+}
+.corte_{
+    margin-left: 15px;
+}
+img{
+    width: 110px;
+    position: absolute;
+    right: 18px;
+    top: 32px;
+    float: right;
+}
+.botenviar{
+    margin-bottom: 20px;
+    margin-left: 15px;
+
+}
+.pieform{
+    margin-top: 20px;
+    color: black;
+}
+#copy{
+    display: inline;
+    position: relative;
+    margin-left: 5px;
+    top: 15px;
+}
+#copytext{
+    font-size: small;
+    position: relative;
+    left: 80px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloform.css">
+    <title>Formulario de Ingreso</title>
+</head>
+<body>
+    <div class="formulario">
+        <form class="formutodo" action="">
+            <fieldset>
+        <legend>Selección de prendas</legend>
+        <div class="corte_">
+        <form action="">
+            <h3 id="subtit_se">Género</h3><br>
+            <input type="radio" name="genero" id="hombre">
+            <label for="hombre">Hombre</label><br>
+            <input type="radio" name="genero" id="mujer">
+            <label for="mujer">Mujer</label><br>
+            <input type="radio" name="genero" id="unisex">
+            <label for="unisex">Unisex</label>
+        </form>
+        </div><hr>
+        <div>
+            <form action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Rogelio"><br><br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="Buendia">
+            </form>
+        </div><hr>
+        <div class="talles_">
+            <form action="">
+                <label for="talles">Talles Remeras</label>
+                <select name="talles" id="">
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                </select>
+            </form>
+        </div><br>
+        <div class="cantidad_">
+            <form action="">
+                <label for="cantidad">Cantidad</label>
+                <select name="cantidad" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="6">6</option>
+                    <option value="12">12</option>
+                </select>
+            </form>
+        </div><br><br>
+        <div class="enviar">
+            <form class="botenviar" action="">
+                <input type="submit" name="enviar" value="Enviar">
+            </form>
+            <img src="corholio.gif" alt="Corholio Remeras"><br><hr>
+            <footer class="pieform">
+                <h5 id="copy">copyright &copy;</h5>
+                <p id="copytext">Maluko-since 1991</p>
+            </footer>
+        </fieldset>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
